@@ -89,21 +89,33 @@ https://github.com/instructkr/claw-code
 
 ![Tweet screenshot](assets/tweet-screenshot.png)
 
-## The Creators Featured in Wall Street Journal For Avid Claw Code Fans
+## Related Projects
 
-I've been deeply interested in **harness engineering** — studying how agent systems wire tools, orchestrate tasks, and manage runtime context. This isn't a sudden thing. The Wall Street Journal featured my work earlier this month, documenting how I've been one of the most active power users exploring these systems:
+This repository sits inside a broader harness-engineering stack. If you want the surrounding tooling rather than only this port, start here:
 
-> AI startup worker Sigrid Jin, who attended the Seoul dinner, single-handedly used 25 billion of Claw Code tokens last year. At the time, usage limits were looser, allowing early enthusiasts to reach tens of billions of tokens at a very low cost.
->
-> Despite his countless hours with Claw Code, Jin isn't faithful to any one AI lab. The tools available have different strengths and weaknesses, he said. Codex is better at reasoning, while Claw Code generates cleaner, more shareable code.
->
-> Jin flew to San Francisco in February for Claw Code's first birthday party, where attendees waited in line to compare notes with Cherny. The crowd included a practicing cardiologist from Belgium who had built an app to help patients navigate care, and a California lawyer who made a tool for automating building permit approvals using Claw Code.
->
-> "It was basically like a sharing party," Jin said. "There were lawyers, there were doctors, there were dentists. They did not have software engineering backgrounds."
->
-> — *The Wall Street Journal*, March 21, 2026, [*"The Trillion Dollar Race to Automate Our Entire Lives"*](https://lnkd.in/gs9td3qd)
+### oh-my-codex (OmX)
 
-![WSJ Feature](assets/wsj-feature.png)
+[![oh-my-codex](https://opengraph.githubassets.com/1/Yeachan-Heo/oh-my-codex)](https://github.com/Yeachan-Heo/oh-my-codex)
+
+Primary orchestration layer for planning, delegation, verification loops, and long-running execution patterns such as `$team` and `$ralph`.
+
+### oh-my-claudecode (OmC)
+
+[![oh-my-claudecode](https://opengraph.githubassets.com/1/Yeachan-Heo/oh-my-claudecode)](https://github.com/Yeachan-Heo/oh-my-claudecode)
+
+Companion workflow layer for Claude Code-centered orchestration and multi-agent terminal workflows.
+
+### clawhip
+
+[![clawhip](https://opengraph.githubassets.com/1/Yeachan-Heo/clawhip)](https://github.com/Yeachan-Heo/clawhip)
+
+Event-to-channel routing for commits, PRs, issues, tmux sessions, and agent lifecycle updates — keeping monitoring traffic out of the active agent context window.
+
+### oh-my-opencode (OmO)
+
+[![oh-my-opencode](https://opengraph.githubassets.com/1/code-yeongyu/oh-my-openagent)](https://github.com/code-yeongyu/oh-my-openagent)
+
+Used here for later-pass implementation acceleration and verification support alongside OmX.
 
 ---
 
